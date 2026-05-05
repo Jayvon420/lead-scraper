@@ -44,3 +44,12 @@ npm run build
 - React / Next.js
 - shadcn/ui
 - Node.js
+
+---
+
+## ⚠️ Note
+
+This project requires a separate browser extension to function.
+
+👉 Make sure to clone and use my **extension repository** for the scraper to work properly.
+Without the extension, the scraping functionality will not be triggered.
