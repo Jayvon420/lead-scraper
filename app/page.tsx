@@ -284,19 +284,15 @@ export default function Page() {
   return (
     <div className="max-w-6xl mx-auto p-6 space-y-6 font-sans">
       {/* HEADER */}
-      //{" "}
+
       <div className="flex justify-between items-center">
-        //{" "}
         <div>
-          // <h1 className="text-xl font-semibold">Leads Dashboard</h1>
-          //{" "}
+          <h1 className="text-xl font-semibold">Leads Dashboard</h1>
           <p className="text-sm text-muted-foreground">
-            // Scraped data from your extension //{" "}
+            Scraped data from your extension
           </p>
-          //{" "}
         </div>
-        // <ThemeToggle />
-        //{" "}
+        <ThemeToggle />
       </div>
       {/* CONTROLS */}
       <div className="flex flex-col md:flex-row gap-3">
