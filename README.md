@@ -51,5 +51,16 @@ npm run build
 
 This project requires a separate browser extension to function.
 
-👉 Make sure to clone and use my **extension repository** for the scraper to work properly.
+👉 Make sure to clone and use my **extension repository** for the scraper to work properly.  
 Without the extension, the scraping functionality will not be triggered.
+
+This project uses Turso as the database.
+
+Set up your environment variables:
+
+```env
+TURSO_DB_URL=
+TURSO_AUTH_TOKEN=
+```
+
+Paste your Turso database URL and authentication token before running the project.
