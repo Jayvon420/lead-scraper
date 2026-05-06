@@ -157,7 +157,7 @@ export default function Page() {
         </div>
 
         <Select value={limit} onValueChange={(v) => v && setLimit(v)}>
-          <SelectTrigger className="w-[140px]">
+          <SelectTrigger className="w-35">
             <SelectValue />
           </SelectTrigger>
 
