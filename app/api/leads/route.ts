@@ -65,3 +65,20 @@ export async function GET(req: Request) {
     );
   }
 }
+
+export async function DELETE() {
+  try {
+    await db.execute({
+      sql: `DELETE FROM leads`,
+    });
+
+    return NextResponse.json({ success: true });
+  } catch (err) {
+    console.error(err);
+
+    return NextResponse.json(
+      { error: "Failed to delete leads" },
+      { status: 500 },
+    );
+  }
+}
